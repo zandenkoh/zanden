@@ -18,31 +18,18 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
+      <p>
+        My name is Zanden, and I'm a student at Catholic High School with an insatiable curiosity for creating and innovating.{" "}
+        From a young age, I've been captivated by the thrill of bringing ideas to life, whether it's sketching out a new concept or diving into the nuts and bolts of a project.{" "}
+        When I discovered programming, I realised that my wildest ideas for apps, tools, and AI solutions had a path to reality.
+      </p>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        My journey in STEM is fueled by a relentless passion for problem-solving and a desire to push boundaries. I spend my days coding, exploring artificial intelligence, and building projects that blend creativity with cutting-edge technology.
+        I've embraced opportunities like leading STEM initiatives and collaborating on service projects, all while sharpening my skills in Python, JavaScript, and C++.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        Beyond the code, I'm inspired by the potential of technology to make a difference, whether it's sparking curiosity in others or solving real-world challenges. My goal? It's to <span className="font-medium">keep learning, keep building, keep growing, and keep creating new solutions that leave a mark.</span> 
       </p>
     </motion.section>
   );

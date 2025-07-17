@@ -10,8 +10,25 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Ricardo | Personal Portfolio",
-  description: "Ricardo is a full-stack developer with 8 years of experience.",
+  title: "Zanden Koh",
+  description: "Zanden Koh, a passionate student innovator, builds AI-driven solutions in biotech, healthcare, and education using React, Next.js, TypeScript, and Tailwind CSS.",
+  icons: {
+    icon: '/favicon.png',
+  },
+  openGraph: {
+    title: 'Zanden Koh',
+    description: 'Zanden Koh, a passionate student innovator, builds AI-driven solutions in biotech, healthcare, and education using React, Next.js, TypeScript, and Tailwind CSS.',
+    images: [
+      {
+        url: '/favicon.png', // Path relative to `app/` or `public/`
+        width: 1200,
+        height: 630,
+        alt: 'Zanden Koh',
+      },
+    ],
+    url: 'https://zanden.vercel.app', // Your site’s URL
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
